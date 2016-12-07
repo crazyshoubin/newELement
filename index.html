@@ -1,0 +1,72 @@
+<!--
+	作者：rootjs@163.com
+	时间：2016-09-05
+	描述：元素周期表
+-->
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$.getJSON("js/element.json", function(data) {
+					var _arr = [];
+					var index = 1;
+					var flag = 1;
+					for(var key in data) {
+						if(Number(key) > 0 && Number(key) < 24) {
+							if(Number(key) == 1) {
+								_arr.push("<span id=\"" + key + "\" class=\"" + data[key]["color"] + "\" style=\"left:" + (key - 1) * 52 + "px;top:" + (key - 1) * 52 + "px;\">" + data[key]["name"] + "</span>");
+							} else if(Number(key) > 3 && Number(key) < 24) {
+								if(Number(key) < 6 || (Number(key) < 16 && Number(key) > 13)) {
+									var left1 = Math.abs(Number(key) - 3 - (flag - 1) * 10 - 1) * 52;
+								} else {
+									left1 = Math.abs(Number(key) - 3 - (flag - 1) * 10 - 1) * 52 + 416;
+								}
+								_arr.push("<span id=\"" + key + "\" class=\"" + data[key]["color"] + "\" style=\"left:" + left1 + "px;top:" + flag * 52 + "px;\">" + data[key]["name"] + "</span>");
+								if((Number(key) - 3) % 10 == 0) {
+									flag++;
+								}
+							} else {
+								_arr.push("<span id=\"" + key + "\" class=\"" + data[key]["color"] + "\" style=\"left:" + (key * 52 + 728) + "px;top:0px;\">" + data[key]["name"] + "</span>");
+							}
+						} else if(Number(key) > 95) {
+							_arr.push("<span id=\"" + key + "\" class=\"" + data[key]["color"] + "\" style=\"left:" + (key - 90) * 52 + "px;top:" + 416 + "px;\">" + data[key]["name"] + "</span>");
+						} else {
+							_arr.push("<span id=\"" + key + "\" class=\"" + data[key]["color"] + "\" style=\"left:" + Math.abs(Number(key) - 22 - (index - 1) * 18 - 2) * 52 + "px;top:" + (index * 52 + 104) + "px;\">" + data[key]["name"] + "</span>");
+							if((Number(key) - 23) % 18 == 0) {
+								index++;
+							}
+						}
+					}
+					_arr.push("<div class=\"int\"></div>")
+					$(".box").html(_arr.join(""))
+					$(".box").on("mouseover", "span", function() {
+						var left = this.style.left;
+						var top = this.style.top.substring(0, this.style.top.length - 2);
+						var _arrt = [];
+						$(".int").css({
+							"display": "block",
+							"left": left,
+							"top": Number(top) + 52 + "px"
+						})
+						_arrt.push("<b>&lt;" + data[$(this).attr("id")]["explain"].split("：")[0] + "&gt;</b><p>" + data[$(this).attr("id")]["explain"].split("：")[1] + "</p>");
+						$(".int").html(_arrt.join(""))
+					})
+					$(".box").on("mouseout", "span", function() {
+						$(".int").css("display", "none")
+					})
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="box">
+		</div>
+	</body>
+
+</html>

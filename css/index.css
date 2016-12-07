@@ -1,0 +1,111 @@
+body {
+  background-color: #1c1d26;
+}
+.box {
+  width: 960px;
+  height: 368px;
+  margin: 70px auto;
+  position: relative;
+}
+.box span {
+  font-size: 12px;
+  border-radius: 5px;
+  display: block;
+  width: 52px;
+  height: 52px;
+  float: left;
+  background: #d17dd3;
+  position: absolute;
+  text-align: center;
+  line-height: 52px;
+}
+.box .green {
+  background: #81d183;
+  border-left: solid #cceccd 1px;
+  border-top: solid #cceccd 1px;
+}
+.box .green:hover {
+  background: #cceccd;
+}
+.box .yellow {
+  background: #d1d157;
+  border-left: solid #e7e7a7 1px;
+  border-top: solid #e7e7a7 1px;
+}
+.box .yellow:hover {
+  background: #e7e7a7;
+}
+.box .fluorescentgreen {
+  background: #55d157;
+  border-left: solid #a5e7a6 1px;
+  border-top: solid #a5e7a6 1px;
+}
+.box .fluorescentgreen:hover {
+  background: #a5e7a6;
+}
+.box .orange {
+  background: #d17d57;
+  border-left: solid #e7bba7 1px;
+  border-top: solid #e7bba7 1px;
+}
+.box .orange:hover {
+  background: #e7bba7;
+}
+.box .blue {
+  background: #6575d3;
+  border-left: solid #b4bcea 1px;
+  border-top: solid #b4bcea 1px;
+}
+.box .blue:hover {
+  background: #b4bcea;
+}
+.box .rosered {
+  background: #d17d47;
+  border-left: solid #e5b799 1px;
+  border-top: solid #e5b799 1px;
+}
+.box .rosered:hover {
+  background: #e5b799;
+}
+.box .Cambridgeblue {
+  background: #8591d3;
+  border-left: solid #d0d5ee 1px;
+  border-top: solid #d0d5ee 1px;
+}
+.box .Cambridgeblue:hover {
+  background: #d0d5ee;
+}
+.box .gray {
+  background: #d1d1d3;
+  border-left: solid #ffffff 1px;
+  border-top: solid #ffffff 1px;
+}
+.box .gray:hover {
+  background: #ffffff;
+}
+.box .pink {
+  background: #d17dd3;
+  border-left: solid #ecc9ed 1px;
+  border-top: solid #ecc9ed 1px;
+}
+.box .pink:hover {
+  background: #ecc9ed;
+}
+.int {
+  width: 250px;
+  min-height: 100px;
+  background: #fff;
+  position: absolute;
+  display: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 20px #000;
+}
+.int b {
+  margin: 10px 0 5px 0;
+}
+.int p {
+  font-size: 14px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=new_file.css.map */

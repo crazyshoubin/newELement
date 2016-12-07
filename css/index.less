@@ -1,0 +1,123 @@
+@boxColor:#ccc;
+@rootColor:#81d183;
+@textColor:#d1d157;
+@fromColor:#55d157;
+@jsonColor:#d17d57;
+@jsColor:#6575d3;
+@groupColor:#d17d47;
+@textHColor:#8591d3;
+@ajaxColor:#d1d1d3;
+@inColor:#d17dd3;
+body{
+    background-color: #1c1d26;
+}
+.box{
+    width: 960px;
+    height: 368px;
+    margin: 70px auto;
+    position: relative;
+    //给span定义初始样式
+    span{
+        font-size: 12px;
+        border-radius: 5px;
+        display: block;
+        width: 52px;
+        height: 52px;
+        float: left;
+        background: @inColor;
+        position: absolute;
+        text-align: center;
+        line-height: 52px;
+    }
+    
+    .green{
+        background: @rootColor;
+        border-left: solid lighten(@rootColor, 20%) 1px;
+        border-top: solid lighten(@rootColor, 20%) 1px;
+        &:hover{
+            background: lighten(@rootColor, 20%);
+        }
+    }
+    .yellow{
+        background: @textColor;
+        border-left: solid lighten(@textColor, 20%) 1px;
+        border-top: solid lighten(@textColor, 20%) 1px;
+        &:hover{
+            background: lighten(@textColor, 20%);
+        }
+    }
+    .fluorescentgreen{
+        background: @fromColor;
+        border-left: solid lighten(@fromColor, 20%) 1px;
+        border-top: solid lighten(@fromColor, 20%) 1px;
+        &:hover{
+            background: lighten(@fromColor, 20%);
+        }
+    }
+    .orange{
+        background: @jsonColor;
+        border-left: solid lighten(@jsonColor, 20%) 1px;
+        border-top: solid lighten(@jsonColor, 20%) 1px;
+        &:hover{
+            background: lighten(@jsonColor, 20%);
+        }
+    }
+    .blue{
+        background: @jsColor;
+        border-left: solid lighten(@jsColor, 20%) 1px;
+        border-top: solid lighten(@jsColor, 20%) 1px;
+        &:hover{
+            background: lighten(@jsColor, 20%);
+        }
+    }
+    .rosered{
+        background: @groupColor;
+        border-left: solid lighten(@groupColor, 20%) 1px;
+        border-top: solid lighten(@groupColor, 20%) 1px;
+        &:hover{
+            background: lighten(@groupColor, 20%);
+        }
+    }
+    .Cambridgeblue{
+        background: @textHColor;
+        border-left: solid lighten(@textHColor, 20%) 1px;
+        border-top: solid lighten(@textHColor, 20%) 1px;
+        &:hover{
+            background: lighten(@textHColor, 20%);
+        }
+    }
+    .gray{
+        background: @ajaxColor;
+        border-left: solid lighten(@ajaxColor, 20%) 1px;
+        border-top: solid lighten(@ajaxColor, 20%) 1px;
+        &:hover{
+            background: lighten(@ajaxColor, 20%);
+            
+        }
+    }
+    .pink{
+        background: @inColor;
+        border-left: solid lighten(@inColor, 20%) 1px;
+        border-top: solid lighten(@inColor, 20%) 1px;
+        &:hover{
+            background: lighten(@inColor, 20%);
+        }
+    }
+}
+.int{
+        width: 250px;
+        min-height: 100px;
+        background: #fff;
+        position: absolute;
+        display: none;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 0 20px #000;
+        b{
+            margin: 10px 0 5px 0;
+        }
+        p{
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }

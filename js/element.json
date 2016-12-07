@@ -1,0 +1,537 @@
+{
+	"001":{
+		"name":"html",
+		"color":"green",
+		"explain":"html5：Document root element.<br>文档根元素"
+	},
+	"002":{
+		"name":"col",
+		"color":"rosered",
+		"explain":"col:Columns in a table.<br>表格中的列"
+	},
+	"003":{
+		"name":"table",
+		"color":"rosered",
+		"explain":"table：Table of multi-dimensional data.<br>表格"
+	},
+	"004":{
+		"name":"head",
+		"color":"blue",
+		"explain":"head：First element of the HTML document. Contains document metadata.<br>HTML文档中的第一个元素。包含文档元数据"
+	},
+	"005":{
+		"name":"span",
+		"color":"yellow",
+		"explain":"span：Container with no semantic meaning.<br>无语义的容器"
+	},
+	"006":{
+		"name":"div",
+		"color":"orange",
+		"explain":"div：Container with no semantic meaning.<br>无语义的容器"
+	},
+	"007":{
+		"name":"fieldset",
+		"color":"fluorescentgreen",
+		"explain":"fieldset：Set of form controls grouped by theme.<br>按用途组合的一组表单控制元素"
+	},
+	"008":{
+		"name":"form",
+		"color":"fluorescentgreen",
+		"explain":"form：Form.<br>表单"
+	},
+	"009":{
+		"name":"body",
+		"color":"Cambridgeblue",
+		"explain":"body：Document content.<br>文档的主体"
+	},
+	"010":{
+		"name":"h1",
+		"color":"Cambridgeblue",
+		"explain":"h1：Heading for the current section.<br>当前章节的标题"
+	},
+	"011":{
+		"name":"section",
+		"color":"Cambridgeblue",
+		"explain":"section：Contains elements grouped by theme, for example a chapter or tab box.<br>包含同主题一组元素的容器，例如文档的章节"
+	},
+	"012":{
+		"name":"colgroup",
+		"color":"rosered",
+		"explain":"colgroup：Defines a group of columns in a table.<br>对表格中的若干列进行组合"
+	},
+	"013":{
+		"name":"tr",
+		"color":"rosered",
+		"explain":"tr：A row of cells.<br>表格中的一行单元"
+	},
+	"014":{
+		"name":"title",
+		"color":"blue",
+		"explain":"title：Document title.<br>文档标题"
+	},
+	"015":{
+		"name":"a",
+		"color":"yellow",
+		"explain":"a：Hyperlink.<br>超链接"
+	},
+	"016":{
+		"name":"pre",
+		"color":"orange",
+		"explain":"pre：Text that is preformatted in the HTML code.<br>在HTML代码中预先格式化的文本"
+	},
+	"017":{
+		"name":"meter",
+		"color":"fluorescentgreen",
+		"explain":"meter：Control for entering a numeric value in a known range.<br>控制在已知范围内输入度量值"
+	},
+	"018":{
+		"name":"select",
+		"color":"fluorescentgreen",
+		"explain":"select：Control for selecting from multiple options.<br>有多选值的下拉列表"
+	},
+	"019":{
+		"name":"aside",
+		"color":"Cambridgeblue",
+		"explain":"aside：Content related to surrounding elements that doesn't belong inline, such as a advertising or quotes.<br>与周围元素相关的内容，但分开显示"
+	},
+	"020":{
+		"name":"h2",
+		"color":"Cambridgeblue",
+		"explain":"h2：Heading for the current section.<br>当前章节的标题"
+	},
+	"021":{
+		"name":"header",
+		"color":"Cambridgeblue",
+		"explain":"header：Navigation or introductory elements for the current section.<br>当前章节的导航或引导性元素"
+	},
+	"022":{
+		"name":"caption",
+		"color":"rosered",
+		"explain":"caption：Title of a table.<br>表格的标题"
+	},
+	"023":{
+		"name":"td",
+		"color":"rosered",
+		"explain":"td：Table cell.<br>表格单元格"
+	},
+	"024":{
+		"name":"meta",
+		"color":"blue",
+		"explain":"meta：Document metadata that can't be represented with other elements.<br>文档的元数据"
+	},
+	"025":{
+		"name":"rt",
+		"color":"yellow",
+		"explain":"rt：Annotation of preceding text.<br>文本的解释"
+	},
+	"026":{
+		"name":"dfn",
+		"color":"yellow",
+		"explain":"dfn：Term being defined by the parent section.<br>由父级章节定义的项"
+	},
+	"027":{
+		"name":"em",
+		"color":"yellow",
+		"explain":"em：Text that should be emphasised.<br>需要强调的文本"
+	},
+	"028":{
+		"name":"i",
+		"color":"yellow",
+		"explain":"i：Text in a alternate voice or mood, such as a technical term.<br>斜体的文本"
+	},
+	"029":{
+		"name":"small",
+		"color":"yellow",
+		"explain":"small：An aside, such as fine print.<br>更小的旁注信息"
+	},
+	"030":{
+		"name":"ins",
+		"color":"yellow",
+		"explain":"ins：Text that has been inserted during document editing.<br>在文档编辑过程中插入的文本"
+	},
+	"031":{
+		"name":"s",
+		"color":"yellow",
+		"explain":"s：Text that is outdated or no longer accurate.<br>失效或不再准确的文本"
+	},
+	"032":{
+		"name":"br",
+		"color":"orange",
+		"explain":"br：Line break.<br>换行符"
+	},
+	"033":{
+		"name":"p",
+		"color":"orange",
+		"explain":"p：Paragraph content.<br>段落内容"
+	},
+	"034":{
+		"name":"blockquot",
+		"color":"orange",
+		"explain":"blockquote：Quote from another source.<br>从其它源引用的内容"
+	},
+	"035":{
+		"name":"legend",
+		"color":"fluorescentgreen",
+		"explain":"legend：Define a name for a fieldset.<br>图例或表的说明"
+	},
+	"036":{
+		"name":"optgroup",
+		"color":"fluorescentgreen",
+		"explain":"optgroup：Group of option.<br>选项组"
+	},
+	"037":{
+		"name":"address",
+		"color":"Cambridgeblue",
+		"explain":"address：Contact information for the current article.<br>当前文章的联系信息"
+	},
+	"038":{
+		"name":"h3",
+		"color":"Cambridgeblue",
+		"explain":"h3：Heading for the current section.<br>当前章节的标题"
+	},
+	"039":{
+		"name":"nav",
+		"color":"Cambridgeblue",
+		"explain":"nav：Contains a collection of links.<br>导航链接的容器"
+	},
+	"040":{
+		"name":"menu",
+		"color":"gray",
+		"explain":"menu：Set of commands.<br>菜单列表"
+	},
+	"041":{
+		"name":"th",
+		"color":"rosered",
+		"explain":"th：Table heading.<br>表头"
+	},
+	"042":{
+		"name":"base",
+		"color":"blue",
+		"explain":"base：Specifies URL which non-absolute URLs are relative to.<br>定义非绝对的链接地址所相对的默认 URL"
+	},
+	"043":{
+		"name":"rp",
+		"color":"yellow",
+		"explain":"rp：Contains semantically meaningless markup for browsers that don't understand ruby annotations.<br>针对不支持ruby 注音的浏览器，用于注释信息"
+	},
+	"044":{
+		"name":"abbr",
+		"color":"yellow",
+		"explain":"abbr：Abbreviation or acronym.<br>缩写或缩略词"
+	},
+	"045":{
+		"name":"time",
+		"color":"yellow",
+		"explain":"time：Time defined in a machine readable format.<br>时间"
+	},
+	"046":{
+		"name":"b",
+		"color":"yellow",
+		"explain":"b：Stylistically separated text of equal importance, such as a product name.<br>粗体文本，用于强调"
+	},
+	"047":{
+		"name":"strong",
+		"color":"yellow",
+		"explain":"strong：Text that is important.<br>重要的文本"
+	},
+	"048":{
+		"name":"del",
+		"color":"yellow",
+		"explain":"del：Text that has been removed during document editing.<br>在编辑过程中被删除的文本"
+	},
+	"049":{
+		"name":"kbd",
+		"color":"yellow",
+		"explain":"kbd：Example input (usually keyboard) for a program.<br>由键盘输入的文本"
+	},
+	"050":{
+		"name":"hr",
+		"color":"orange",
+		"explain":"hr：Thematic break within a paragraph.<br>水平线/内容主题的变化"
+	},
+	"051":{
+		"name":"ol",
+		"color":"orange",
+		"explain":"ol：Ordered list.<br>有序列表"
+	},
+	"052":{
+		"name":"dl",
+		"color":"orange",
+		"explain":"dl：List of term-description pairs.<br>带定义的列表"
+	},
+	"053":{
+		"name":"label",
+		"color":"fluorescentgreen",
+		"explain":"label：Caption for a form control.<br>表单控件的标题（标签）"
+	},
+	"054":{
+		"name":"option",
+		"color":"fluorescentgreen",
+		"explain":"option：Single option within a select control.<br>下拉列表中的单一选项"
+	},
+	"055":{
+		"name":"datalist",
+		"color":"fluorescentgreen",
+		"explain":"datalist：Define sets of options.<br>定义选项列表"
+	},
+	"056":{
+		"name":"h4",
+		"color":"Cambridgeblue",
+		"explain":"h4：Heading for the current section.<br>当前章节的标题"
+	},
+	"057":{
+		"name":"article",
+		"color":"Cambridgeblue",
+		"explain":"article：Section of the page content, such as a blog or forum post.页面内容的独立部分，如博客文章、论坛帖子"
+	},
+	"058":{
+		"name":"command",
+		"color":"gray",
+		"explain":"command：Command the user can perform, such as publishing an article.<br>用户可以执行的命令，如发表一篇文章"
+	},
+	"059":{
+		"name":"tbody",
+		"color":"rosered",
+		"explain":"tbody：Contains rows that hold the table's data.<br>表格主体"
+	},
+	"060":{
+		"name":"link",
+		"color":"blue",
+		"explain":"link：Other resources related to the document.<br>与文档相关的其它资源"
+	},
+	"061":{
+		"name":"noscript",
+		"color":"blue",
+		"explain":"noscript：Contains elements that are part of the document only if scripting is disabled.<br>当脚本被禁用时显示的一部分文档内容"
+	},
+	"062":{
+		"name":"q",
+		"color":"yellow",
+		"explain":"q：Quoted text.<br>引用的文本"
+	},
+	"063":{
+		"name":"var",
+		"color":"yellow",
+		"explain":"var：Mathematical or programming variable.<br>数学或程序变量"
+	},
+	"064":{
+		"name":"sub",
+		"color":"yellow",
+		"explain":"sub：Subscript text.<br>上标"
+	},
+	"065":{
+		"name":"mark",
+		"color":"yellow",
+		"explain":"mark：Text highlighted for referencing elsewhere.<br>突出显示的文本"
+	},
+	"066":{
+		"name":"bdi",
+		"color":"yellow",
+		"explain":"bdi：Text that is separated from directional formatting of its surroundings.<br>从周围内容分开，而设置不同的文本方向"
+	},
+	"067":{
+		"name":"wbr",
+		"color":"yellow",
+		"explain":"wbr：Opportunity for a line break.<br>软回车（必要时才回车）"
+	},
+	"068":{
+		"name":"figcaptior",
+		"color":"orange",
+		"explain":"figcaption：Caption for a figure.<br>图片的标题，图题"
+	},
+	"069":{
+		"name":"ul",
+		"color":"orange",
+		"explain":"ul：Unordered list.<br>无序列表"
+	},
+	"070":{
+		"name":"dt",
+		"color":"orange",
+		"explain":"dt：Term which will be described.<br>带定义的列表中的项目"
+	},
+	"071":{
+		"name":"input",
+		"color":"fluorescentgreen",
+		"explain":"input：Generic form input.<br>表单中的输入字段"
+	},
+	"072":{
+		"name":"output",
+		"color":"fluorescentgreen",
+		"explain":"output：Contains the results of a calculation.<br>输出的结果"
+	},
+	"073":{
+		"name":"keygen",
+		"color":"fluorescentgreen",
+		"explain":"keygen：Generates private-public key pairs.<br>生成密钥对"
+	},
+	"074":{
+		"name":"h5",
+		"color":"Cambridgeblue",
+		"explain":"h5：eading for the current section.<br>当前章节的标题"
+	},
+	"075":{
+		"name":"footer",
+		"color":"Cambridgeblue",
+		"explain":"footer：Footer of the current section.<br>当前章节的页脚"
+	},
+	"076":{
+		"name":"summary",
+		"color":"gray",
+		"explain":"summary：Caption of a details element.<br>dedails元素的标题"
+	},
+	"077":{
+		"name":"thead",
+		"color":"rosered",
+		"explain":"thead：Contains rows with table headings.<br>表格中的表头行"
+	},
+	"078":{
+		"name":"style",
+		"color":"blue",
+		"explain":"style：Styling defined inline data.<br>在文档中定义的样式"
+	},
+	"079":{
+		"name":"script",
+		"color":"blue",
+		"explain":"script：Inline or linked client side scripts.<br>内部或外部链接的脚本"
+	},
+	"080":{
+		"name":"cite",
+		"color":"yellow",
+		"explain":"cite：Title of a referenced piece of work.<br>对参考文献等的引用"
+	},
+	"081":{
+		"name":"samp",
+		"color":"yellow",
+		"explain":"samp：Sample output of a program.<br>程序的样本"
+	},
+	"082":{
+		"name":"sup",
+		"color":"yellow",
+		"explain":"sup：Superscript text.<br>下标"
+	},
+	"083":{
+		"name":"ruby",
+		"color":"yellow",
+		"explain":"ruby：Contains text with annotations, such as pronounciation hints. Commonly used in East Asian text.<br>东亚文字的注音，如中文的拼音"
+	},
+	"084":{
+		"name":"bdo",
+		"color":"yellow",
+		"explain":"bdo：Defines directional formatting for content.<br>定义内容的排版方向"
+	},
+	"085":{
+		"name":"code",
+		"color":"yellow",
+		"explain":"code：Fragment of code.<br>代码的片断"
+	},
+	"086":{
+		"name":"figure",
+		"color":"orange",
+		"explain":"figure：Contains elements related to single concept, such as an illustration or code example.<br>独立的内容，如图像、代码等"
+	},
+	"087":{
+		"name":"li",
+		"color":"orange",
+		"explain":"li：List item.<br>列表项目"
+	},
+	"088":{
+		"name":"dd",
+		"color":"orange",
+		"explain":"dd：Description for the preceding term.<br>带定义列表中对项目的描述"
+	},
+	"089":{
+		"name":"textarea",
+		"color":"fluorescentgreen",
+		"explain":"textarea：Multiline free-form text input.<br>多行的文本输入区域"
+	},
+	"090":{
+		"name":"button",
+		"color":"fluorescentgreen",
+		"explain":"button：A button.<br>按钮"
+	},
+	"091":{
+		"name":"progress",
+		"color":"fluorescentgreen",
+		"explain":"progress：Control for displaying progress of a task.<br>运行中的进度控制"
+	},
+	"092":{
+		"name":"h6",
+		"color":"Cambridgeblue",
+		"explain":"h6：Heading for the current section.<br>当前章节的标题"
+	},
+	"093":{
+		"name":"hgroup",
+		"color":"Cambridgeblue",
+		"explain":"hgroup：Collection of headings for the current section. The highest ranked heading represents the group in the document outline.<br>当前章节各标题的组合"
+	},
+	"094":{
+		"name":"details",
+		"color":"gray",
+		"explain":"details：Contains additional information, such as the contents of an accordian view.<br>附加的详细信息"
+	},
+	"095":{
+		"name":"tfoot",
+		"color":"rosered",
+		"explain":"tfoot：Contains rows with summary of data.<br>表格的页脚/脚注行"
+	},
+	"096":{
+		"name":"img",
+		"color":"pink",
+		"explain":"img：An image.<br>图像"
+	},
+	"097":{
+		"name":"area",
+		"color":"pink",
+		"explain":"area：Hyperlink area in an image map.<br>图像映射的超链接区域"
+	},
+	"098":{
+		"name":"map",
+		"color":"pink",
+		"explain":"map：Image map for adding hyperlinks to parts of an image.<br>在图像的一部分区域定义图像映射用于添加超链接"
+	},
+	"099":{
+		"name":"embed",
+		"color":"pink",
+		"explain":"embed：Reference to non-HTML content.<br>嵌入的非HTML内容"
+	},
+	"100":{
+		"name":"object",
+		"color":"pink",
+		"explain":"object：External resource such as an image, iframe or plugin.<br>嵌入的外部资源，如图像、iframe或插件"
+	},
+	"101":{
+		"name":"param",
+		"color":"pink",
+		"explain":"param：Parameters for the parent object.<br>父级对象的参数"
+	},
+	"102":{
+		"name":"source",
+		"color":"pink",
+		"explain":"source：Alternative sources for parent video or audio elements.<br>父级视频或音频元素的资源"
+	},
+	"103":{
+		"name":"iframe",
+		"color":"pink",
+		"explain":"iframe：Nested browser frame.<br>嵌套的框架"
+	},
+	"104":{
+		"name":"canvas",
+		"color":"pink",
+		"explain":"canvas：Bitmap which is editable by client side scripts.<br>可以通过客户端脚本编辑的图形（画布）"
+	},
+	"105":{
+		"name":"track",
+		"color":"pink",
+		"explain":"track：Specifies external timing track for media elements.<br>媒体类元素的外部轨道"
+	},
+	"106":{
+		"name":"audio",
+		"color":"pink",
+		"explain":"audio：Audio file.<br>音频文件"
+	},
+	"107":{
+		"name":"video",
+		"color":"pink",
+		"explain":"video：Video.<br>视频"
+	}
+}
